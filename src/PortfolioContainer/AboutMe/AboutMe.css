@@ -13,6 +13,7 @@
   display: flex;
   width: 100%;
   box-shadow: 0 0px 20px -2px #1f2235;
+  border-radius: 20px;
 }
 .about-me-profile {
   width: 50%;
@@ -20,6 +21,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 20px 0 0 20px;
 }
 .about-me-details {
   width: 48%;
