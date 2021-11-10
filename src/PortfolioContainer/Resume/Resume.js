@@ -56,7 +56,7 @@ const Resume = (props) => {
       <div className="resume-section"> Education </div>
       <ResumeHeading
         heading={"Fullstack Academy"}
-        subHeading={"Software Engineering Graduate"}
+        subHeading={"Certificate, Software Engineering"}
         fromDate={"2020"}
         toDate={"2020"}
       />
@@ -78,7 +78,41 @@ const Resume = (props) => {
     </div>,
 
     /* WORK EXPERIENCE */
-    <div className="resume-screen-container" key="work-experience"></div>,
+    <div className="resume-screen-container" key="work-experience">
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Deloitte & Touche, LLC"}
+          subHeading={"Senior Audit Assistant"}
+          fromDate={"Sept. 2020"}
+          toDate={"Sept. 2021"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text"></span>
+        </div>
+      </div>
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Aulder Capital"}
+          subHeading={"Real Estate Acquisitions Analyst Intern"}
+          fromDate={"Oct. 2017"}
+          toDate={"June 2018"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text"></span>
+        </div>
+      </div>
+      <div className="experience-container">
+        <ResumeHeading
+          heading={"Maybank"}
+          subHeading={"Accounting/Finance Intern"}
+          fromDate={"June 2017"}
+          toDate={"Sept 2017"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text"></span>
+        </div>
+      </div>
+    </div>,
 
     /* PROGRAMMING SKILLS */
     <div
