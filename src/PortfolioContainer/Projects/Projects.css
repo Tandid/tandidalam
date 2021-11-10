@@ -10,21 +10,16 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  height: 360px;
+  height: 520px;
   width: 1000px;
   /* margin: 80px 0; */
 }
 
-.project-tabs {
-  box-shadow: 15px 0 9px -15px #1f2235;
-  height: 100%;
-}
-
 .project-tab-details {
   flex-grow: 1;
-  width: 600px;
   overflow: hidden;
-  padding: 0 0 0 80px;
+  border: solid 1px black;
+  border-radius: 20px;
 }
 
 .experience-description {
@@ -37,34 +32,29 @@
 }
 
 .project-details-carousal {
-  transition: transform 1s ease-out;
+  transition: transform 0.5s ease-out;
 }
 
 .tab-container {
   display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%;
   position: relative;
 }
 
 .tabs {
-  width: 86%;
   position: relative;
   z-index: 2;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .tab {
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color: #1f2235;
-  height: 40px;
-  margin: 15px 0;
-  padding: 0 8px;
+  margin: 20px 0;
+  padding: 10px;
   border-radius: 20px;
-  width: 30px;
-  transition: width 0.6s ease;
 }
 
 .tab-label {
@@ -73,20 +63,7 @@
   font-family: "Poppins SemiBold";
 }
 
-.tab-logo {
-  height: 16px;
-  margin: 0 30px 0 0;
-}
-
-.tab-icons {
-  width: 34px;
-  height: 100%;
-  z-index: 1;
-  background-color: #1f2235;
-  position: absolute;
-}
-
 .selected-tab {
   color: var(--white);
-  width: 100%;
+  background-color: var(--black);
 }

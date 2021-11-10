@@ -68,7 +68,7 @@ const Projects = (props) => {
     let offsetHeight = 360;
 
     let newCarousalOffset = {
-      style: { transform: "translateY(" + index * offsetHeight * -1 + "px)" },
+      style: { transform: "translateX(" + index * offsetHeight * -1 + "px)" },
     };
 
     setCarousalOffsetStyle(newCarousalOffset);
@@ -82,11 +82,6 @@ const Projects = (props) => {
         className={index === selectedTabIndex ? "tab selected-tab" : "tab"}
         key={index}
       >
-        <img
-          className="tab-logo"
-          src={require(`../../assets/Resume/${tab.logoSrc}`).default}
-          alt="B"
-        />
         <span className="tab-label">{tab.label}</span>
       </div>
     ));
