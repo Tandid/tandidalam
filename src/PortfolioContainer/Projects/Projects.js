@@ -5,7 +5,7 @@ import Animations from "../../utilities/Animations";
 import "./Projects.css";
 
 const Projects = (props) => {
-  const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
+  const [selectedTabIndex, setSelectedTabIndex] = useState(0);
   const [carousalOffsetStyle, setCarousalOffsetStyle] = useState({});
 
   let fadeInScreenHandler = (screen) => {
@@ -20,7 +20,7 @@ const Projects = (props) => {
     return (
       <div className="projects-heading">
         <div className="project-main-heading">
-          <div className="heading-bullet"></div>
+          <div className="heading-tab"></div>
           <span>{props.heading ? props.heading : ""}</span>
           {props.fromDate && props.toDate ? (
             <div className="heading-date">
@@ -41,7 +41,7 @@ const Projects = (props) => {
   };
 
   /* STATIC project DATA FOR THE LABELS*/
-  const projectBullets = [
+  const projectTabs = [
     { label: "Project 1", logoSrc: "education.svg" },
     { label: "Project 2", logoSrc: "work-history.svg" },
     { label: "Project 3", logoSrc: "programming-skills.svg" },
@@ -72,24 +72,22 @@ const Projects = (props) => {
     };
 
     setCarousalOffsetStyle(newCarousalOffset);
-    setSelectedBulletIndex(index);
+    setSelectedTabIndex(index);
   };
 
-  const getBullets = () => {
-    return projectBullets.map((bullet, index) => (
+  const getTabs = () => {
+    return projectTabs.map((tab, index) => (
       <div
         onClick={() => handleCarousal(index)}
-        className={
-          index === selectedBulletIndex ? "bullet selected-bullet" : "bullet"
-        }
+        className={index === selectedTabIndex ? "tab selected-tab" : "tab"}
         key={index}
       >
         <img
-          className="bullet-logo"
-          src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
+          className="tab-logo"
+          src={require(`../../assets/Resume/${tab.logoSrc}`).default}
           alt="B"
         />
-        <span className="bullet-label">{bullet.label}</span>
+        <span className="tab-label">{tab.label}</span>
       </div>
     ));
   };
@@ -119,14 +117,14 @@ const Projects = (props) => {
       <div className="project-content">
         <ScreenHeading title={"Projects"} />
         <div className="project-card">
-          <div className="project-bullets">
-            <div className="bullet-container">
-              <div className="bullet-icons"></div>
-              <div className="bullets">{getBullets()}</div>
+          <div className="project-tabs">
+            <div className="tab-container">
+              <div className="tab-icons"></div>
+              <div className="tabs">{getTabs()}</div>
             </div>
           </div>
 
-          <div className="project-bullet-details">{getProjectScreens()}</div>
+          <div className="project-tab-details">{getProjectScreens()}</div>
         </div>
       </div>
     </div>
