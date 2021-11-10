@@ -48,7 +48,17 @@ const Resume = (props) => {
     { label: "Interests", logoSrc: "interests.svg" },
   ];
 
-  const programmingSkillsDetails = [];
+  const programmingSkillsDetails = [
+    { skill: "JavaScript", imageURL: "" },
+    { skill: "React JS", imageURL: "" },
+    { skill: "React Native", imageURL: "" },
+    { skill: "Express JS", imageURL: "" },
+    { skill: "Node JS", imageURL: "" },
+    { skill: "Mongo Db", imageURL: "" },
+    { skill: "Core Java", imageURL: "" },
+    { skill: "HTML", imageURL: "" },
+    { skill: "CSS", imageURL: "" },
+  ];
 
   const resumeDetails = [
     /* EDUCATION/LEADERSHIP */
@@ -118,10 +128,24 @@ const Resume = (props) => {
     <div
       className="resume-screen-container programming-skills-container"
       key="programming-skills"
-    ></div>,
+    >
+      {programmingSkillsDetails.map((skill, index) => (
+        <div className="skill-parent" key={index}>
+          <div className="heading-bullet"></div>
+          <span>{skill.skill}</span>
+          <div className="skill-percentage"></div>
+        </div>
+      ))}
+    </div>,
 
     /* Interests */
-    <div className="resume-screen-container" key="interests"></div>,
+    <div className="resume-screen-container" key="interests">
+      <ResumeHeading heading="Competitive Gaming" description="" />
+      <ResumeHeading heading="Basketball" description="" />
+      <ResumeHeading heading="Music" description="" />
+      <ResumeHeading heading="Weight Training" description="" />
+      <ResumeHeading heading="Cognitive Neuroscience" description="" />
+    </div>,
   ];
 
   const handleCarousal = (index) => {
