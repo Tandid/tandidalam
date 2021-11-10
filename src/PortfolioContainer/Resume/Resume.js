@@ -51,8 +51,9 @@ const Resume = (props) => {
   const programmingSkillsDetails = [];
 
   const resumeDetails = [
+    /* EDUCATION/LEADERSHIP */
     <div className="resume-screen-container" key="education">
-      <div> Education </div>
+      <div className="resume-section"> Education </div>
       <ResumeHeading
         heading={"Fullstack Academy"}
         subHeading={"Software Engineering Graduate"}
@@ -67,7 +68,7 @@ const Resume = (props) => {
         toDate={"2020"}
       />
 
-      <div> Leadership </div>
+      <div className="resume-section"> Leadership </div>
       <ResumeHeading
         heading={"Alpha Kappa Psi, Professional Business Fraternity"}
         subHeading={"Audit Director, Treasurer"}

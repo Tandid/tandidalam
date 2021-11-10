@@ -90,3 +90,68 @@
   color: var(--white);
   width: 100%;
 }
+
+.resume-screen-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 360px;
+  width: 100%;
+}
+
+.resume-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-section {
+  font-size: larger;
+  font-weight: bolder;
+  color: var(--black);
+}
+
+.resume-main-heading {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-main-heading span {
+  color: var(--dark-orange);
+  font-size: 16px;
+  font-family: "Poppins SemiBold";
+}
+
+.experience-description {
+  max-width: 100%;
+}
+
+.heading-bullet {
+  position: absolute;
+  left: -30px;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: #ff5823;
+}
+
+.resume-sub-heading {
+  font-size: 14px;
+  font-family: "Poppins SemiBold";
+  color: var(--gray);
+  margin: 10px 0 0 0;
+}
+
+.resume-heading-description {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.heading-date {
+  background-color: #ff5823;
+  padding: 4px 12px;
+  font-size: 14px;
+  border-radius: 14px;
+  color: var(--white);
+}
