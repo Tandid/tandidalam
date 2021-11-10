@@ -4,7 +4,7 @@ import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
 import "./Projects.css";
 
-const Resume = (props) => {
+const Projects = (props) => {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
   const [carousalOffsetStyle, setCarousalOffsetStyle] = useState({});
 
@@ -16,10 +16,10 @@ const Resume = (props) => {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
-  const ResumeHeading = (props) => {
+  const ProjectsHeading = (props) => {
     return (
-      <div className="resume-heading">
-        <div className="resume-main-heading">
+      <div className="projects-heading">
+        <div className="project-main-heading">
           <div className="heading-bullet"></div>
           <span>{props.heading ? props.heading : ""}</span>
           {props.fromDate && props.toDate ? (
@@ -30,121 +30,37 @@ const Resume = (props) => {
             <div></div>
           )}
         </div>
-        <div className="resume-sub-heading">
+        <div className="project-sub-heading">
           <span>{props.subHeading ? props.subHeading : ""}</span>
         </div>
-        <div className="resume-heading-description">
+        <div className="project-heading-description">
           <span>{props.description ? props.description : ""}</span>
         </div>
       </div>
     );
   };
 
-  /* STATIC RESUME DATA FOR THE LABELS*/
-  const resumeBullets = [
-    { label: "Education/Leadership", logoSrc: "education.svg" },
-    { label: "Work History", logoSrc: "work-history.svg" },
-    { label: "Programming Skills", logoSrc: "programming-skills.svg" },
-    { label: "Interests", logoSrc: "interests.svg" },
+  /* STATIC project DATA FOR THE LABELS*/
+  const projectBullets = [
+    { label: "Project 1", logoSrc: "education.svg" },
+    { label: "Project 2", logoSrc: "work-history.svg" },
+    { label: "Project 3", logoSrc: "programming-skills.svg" },
   ];
 
-  const programmingSkillsDetails = [
-    { skill: "JavaScript", imageURL: "" },
-    { skill: "React JS", imageURL: "" },
-    { skill: "React Native", imageURL: "" },
-    { skill: "Express JS", imageURL: "" },
-    { skill: "Node JS", imageURL: "" },
-    { skill: "Mongo Db", imageURL: "" },
-    { skill: "Core Java", imageURL: "" },
-    { skill: "HTML", imageURL: "" },
-    { skill: "CSS", imageURL: "" },
-  ];
-
-  const resumeDetails = [
+  const projectDetails = [
     /* EDUCATION/LEADERSHIP */
-    <div className="resume-screen-container" key="education">
-      <div className="resume-section"> Education </div>
-      <ResumeHeading
-        heading={"Fullstack Academy"}
-        subHeading={"Certificate, Software Engineering"}
-        fromDate={"2020"}
-        toDate={"2020"}
-      />
-
-      <ResumeHeading
-        heading={"CUNY Baruch College"}
-        subHeading={"Bachelor of Business Administration (B.B.A), Accounting"}
-        fromDate={"2015"}
-        toDate={"2020"}
-      />
-
-      <div className="resume-section"> Leadership </div>
-      <ResumeHeading
-        heading={"Alpha Kappa Psi, Professional Business Fraternity"}
-        subHeading={"Audit Director, Treasurer"}
-        fromDate={"2017"}
-        toDate={"2019"}
-      />
-    </div>,
+    <div className="project-screen-container" key="education"></div>,
 
     /* WORK EXPERIENCE */
-    <div className="resume-screen-container" key="work-experience">
-      <div className="experience-container">
-        <ResumeHeading
-          heading={"Deloitte & Touche, LLC"}
-          subHeading={"Senior Audit Assistant"}
-          fromDate={"Sept. 2020"}
-          toDate={"Sept. 2021"}
-        />
-        <div className="experience-description">
-          <span className="resume-description-text"></span>
-        </div>
-      </div>
-      <div className="experience-container">
-        <ResumeHeading
-          heading={"Aulder Capital"}
-          subHeading={"Real Estate Acquisitions Analyst Intern"}
-          fromDate={"Oct. 2017"}
-          toDate={"June 2018"}
-        />
-        <div className="experience-description">
-          <span className="resume-description-text"></span>
-        </div>
-      </div>
-      <div className="experience-container">
-        <ResumeHeading
-          heading={"Maybank"}
-          subHeading={"Accounting/Finance Intern"}
-          fromDate={"June 2017"}
-          toDate={"Sept 2017"}
-        />
-        <div className="experience-description">
-          <span className="resume-description-text"></span>
-        </div>
-      </div>
-    </div>,
-
-    /* PROGRAMMING SKILLS */
-    <div
-      className="resume-screen-container programming-skills-container"
-      key="programming-skills"
-    >
-      {programmingSkillsDetails.map((skill, index) => (
-        <div className="skill-parent" key={index}>
-          <div className="heading-bullet"></div>
-          <span>{skill.skill}</span>
-          <div className="skill-percentage"></div>
-        </div>
-      ))}
-    </div>,
+    <div className="project-screen-container" key="work-experience"></div>,
 
     /* Interests */
-    <div className="resume-screen-container" key="interests">
-      <ResumeHeading heading="Competitive Gaming" description="" />
-      <ResumeHeading heading="Basketball" description="" />
-      <ResumeHeading heading="Music" description="" />
-      <ResumeHeading heading="Weight Training" description="" />
-      <ResumeHeading heading="Cognitive Neuroscience" description="" />
+    <div className="project-screen-container" key="interests">
+      <ProjectsHeading heading="Competitive Gaming" description="" />
+      <ProjectsHeading heading="Basketball" description="" />
+      <ProjectsHeading heading="Music" description="" />
+      <ProjectsHeading heading="Weight Training" description="" />
+      <ProjectsHeading heading="Cognitive Neuroscience" description="" />
     </div>,
   ];
 
@@ -160,7 +76,7 @@ const Resume = (props) => {
   };
 
   const getBullets = () => {
-    return resumeBullets.map((bullet, index) => (
+    return projectBullets.map((bullet, index) => (
       <div
         onClick={() => handleCarousal(index)}
         className={
@@ -178,13 +94,13 @@ const Resume = (props) => {
     ));
   };
 
-  const getResumeScreens = () => {
+  const getProjectScreens = () => {
     return (
       <div
         style={carousalOffsetStyle.style}
         className="resume-details-carousal"
       >
-        {resumeDetails.map((ResumeDetail) => ResumeDetail)}
+        {projectDetails.map((ProjectDetail) => ProjectDetail)}
       </div>
     );
   };
@@ -197,24 +113,24 @@ const Resume = (props) => {
 
   return (
     <div
-      className="resume-container screen-container fade-in"
+      className="project-container screen-container fade-in"
       id={props.id || ""}
     >
-      <div className="resume-content">
-        <ScreenHeading title={"Resume"} />
-        <div className="resume-card">
-          <div className="resume-bullets">
+      <div className="project-content">
+        <ScreenHeading title={"Projects"} />
+        <div className="project-card">
+          <div className="project-bullets">
             <div className="bullet-container">
               <div className="bullet-icons"></div>
               <div className="bullets">{getBullets()}</div>
             </div>
           </div>
 
-          <div className="resume-bullet-details">{getResumeScreens()}</div>
+          <div className="project-bullet-details">{getProjectScreens()}</div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Resume;
+export default Projects;
