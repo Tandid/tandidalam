@@ -28,7 +28,7 @@ export default function Profile() {
           <div className="profile-details-name">
             <span className="primary-text">
               {" "}
-              Hello, I'M <span className="highlighted-text"> Tandid </span>{" "}
+              Hello, I'm <span className="highlighted-text"> Tandid </span>{" "}
             </span>
           </div>
           <div className="profile-details-role">
@@ -46,9 +46,7 @@ export default function Profile() {
                 />
               </h1>
             </span>
-            <span className="profile-role-tagline">
-              Knack of building applications with front and back end operations
-            </span>
+            <span className="profile-role-tagline"></span>
           </div>
           <div className="profile-options">
             <button className="btn primary-btn"> Hire Me </button>
