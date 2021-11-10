@@ -25,7 +25,7 @@ export default function Projects(props) {
             <div className="overlay-content">
               <a
                 className="live-demo-button"
-                href="/"
+                href="https://poptoons-shop.herokuapp.com/ "
                 rel="noreferrer"
                 target="_blank"
               >
@@ -33,7 +33,7 @@ export default function Projects(props) {
               </a>
               <a
                 className="github-button"
-                href="/"
+                href="https://github.com/Tandid/Poptoons-Shop"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -49,7 +49,7 @@ export default function Projects(props) {
             <div className="overlay-content">
               <a
                 className="live-demo-button"
-                href="/"
+                href="https://quacker-twitterclone.herokuapp.com/ "
                 rel="noreferrer"
                 target="_blank"
               >
@@ -57,7 +57,7 @@ export default function Projects(props) {
               </a>
               <a
                 className="github-button"
-                href="/"
+                href="https://github.com/Tandid/Quacker-TwitterClone"
                 rel="noreferrer"
                 target="_blank"
               >
