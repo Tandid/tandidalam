@@ -42,7 +42,7 @@ const Resume = (props) => {
 
   /* STATIC RESUME DATA FOR THE LABELS*/
   const resumeBullets = [
-    { label: "Education", logoSrc: "education.svg" },
+    { label: "Education/Leadership", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "work-history.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
@@ -51,7 +51,30 @@ const Resume = (props) => {
   const programmingSkillsDetails = [];
 
   const resumeDetails = [
-    <div className="resume-screen-container" key="education"></div>,
+    <div className="resume-screen-container" key="education">
+      <div> Education </div>
+      <ResumeHeading
+        heading={"Fullstack Academy"}
+        subHeading={"Software Engineering Graduate"}
+        fromDate={"2020"}
+        toDate={"2020"}
+      />
+
+      <ResumeHeading
+        heading={"CUNY Baruch College"}
+        subHeading={"Bachelor of Business Administration (B.B.A), Accounting"}
+        fromDate={"2015"}
+        toDate={"2020"}
+      />
+
+      <div> Leadership </div>
+      <ResumeHeading
+        heading={"Alpha Kappa Psi, Professional Business Fraternity"}
+        subHeading={"Audit Director, Treasurer"}
+        fromDate={"2017"}
+        toDate={"2019"}
+      />
+    </div>,
 
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience"></div>,
