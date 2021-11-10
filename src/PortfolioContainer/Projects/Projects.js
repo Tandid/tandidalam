@@ -19,6 +19,9 @@ export default function Projects(props) {
     >
       <div className="project-parent">
         <ScreenHeading title={"Projects"} />
+
+        {/* Project 1 */}
+
         <div className="project-card">
           <div className="project-1"></div>
           <div className="overlay overlayBottom">
@@ -43,6 +46,9 @@ export default function Projects(props) {
             </div>
           </div>
         </div>
+
+        {/* Project 2 */}
+
         <div className="project-card">
           <div className="project-2"></div>
           <div className="overlay overlayBottom">
@@ -67,6 +73,9 @@ export default function Projects(props) {
             </div>
           </div>
         </div>
+
+        {/* Project 3 */}
+
         <div className="project-card">
           <div className="project-3"></div>
           <div className="overlay overlayBottom">

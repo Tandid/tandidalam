@@ -49,15 +49,18 @@ const Resume = (props) => {
   ];
 
   const programmingSkillsDetails = [
-    { skill: "JavaScript", imageURL: "" },
-    { skill: "React JS", imageURL: "" },
-    { skill: "React Native", imageURL: "" },
-    { skill: "Express JS", imageURL: "" },
-    { skill: "Node JS", imageURL: "" },
-    { skill: "Mongo Db", imageURL: "" },
-    { skill: "Core Java", imageURL: "" },
-    { skill: "HTML", imageURL: "" },
-    { skill: "CSS", imageURL: "" },
+    { skill: "JavaScript", imageURL: "javascript-4.svg" },
+    { skill: "React JS", imageURL: "react-2.svg" },
+    { skill: "React Redux", imageURL: "redux.svg" },
+    // { skill: "Express JS", imageURL: "" },
+    { skill: "Node JS", imageURL: "nodejs-1.svg" },
+    { skill: "Mongo Db", imageURL: "mongodb.svg" },
+    { skill: "JQuery", imageURL: "jquery-1.svg" },
+    { skill: "HTML", imageURL: "html.svg" },
+    { skill: "CSS", imageURL: "css-5.svg" },
+    { skill: "PostgreSQL", imageURL: "postgresql.svg" },
+    { skill: "Webpack", imageURL: "webpack-icon.svg" },
+    { skill: "Git", imageURL: "git.svg" },
   ];
 
   const resumeDetails = [
@@ -131,9 +134,12 @@ const Resume = (props) => {
     >
       {programmingSkillsDetails.map((skill, index) => (
         <div className="skill-parent" key={index}>
-          <div className="heading-bullet"></div>
+          <img
+            className="skill-logo"
+            src={require(`../../assets/Skills/${skill.imageURL}`).default}
+            alt="B"
+          />
           <span>{skill.skill}</span>
-          <div className="skill-percentage"></div>
         </div>
       ))}
     </div>,
