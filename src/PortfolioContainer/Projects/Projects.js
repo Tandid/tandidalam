@@ -21,12 +21,75 @@ export default function Projects(props) {
         <ScreenHeading title={"Projects"} />
         <div className="project-card">
           <div className="project-1"></div>
+          <div className="overlay overlayBottom">
+            <div className="overlay-content">
+              <a
+                className="live-demo-button"
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+              <a
+                className="github-button"
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i className="fa fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
         </div>
         <div className="project-card">
           <div className="project-2"></div>
+          <div className="overlay overlayBottom">
+            <div className="overlay-content">
+              <a
+                className="live-demo-button"
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+              <a
+                className="github-button"
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i className="fa fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
         </div>
         <div className="project-card">
           <div className="project-3"></div>
+          <div className="overlay overlayBottom">
+            <div className="overlay-content">
+              <a
+                className="live-demo-button"
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+              <a
+                className="github-button"
+                href="/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i className="fa fa-github"></i>
+                Github
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -84,6 +84,7 @@
   z-index: 1;
   background-color: #1f2235;
   position: absolute;
+  border-radius: 20px;
 }
 
 .selected-bullet {
