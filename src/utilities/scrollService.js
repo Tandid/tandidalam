@@ -1,5 +1,6 @@
 import { TOTAL_SCREENS } from "./commonUtils";
 import { Subject } from "rxjs";
+// import { object } from "prop-types";
 
 export default class ScrollService {
   static scrollHandler = new ScrollService();
@@ -21,6 +22,7 @@ export default class ScrollService {
     if (!contactMeScreen) return;
     contactMeScreen.scrollIntoView({ behavior: "smooth" });
   };
+
   isElementinView = (elem, type) => {
     let rec = elem.getBoundingClientRect();
     let elementTop = rec.top;
