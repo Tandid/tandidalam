@@ -43,14 +43,14 @@ export default function Projects(props) {
           <i className="fa fa-envelope"></i>
           <span> tandid.alam@gmail.com </span>
         </a>
-        <a
+        {/* <a
           className="icons angellist"
           href="/"
           rel="noreferrer"
           target="_blank"
         >
           <i className="fa fa-angellist"></i>
-        </a>
+        </a> */}
       </div>
     </div>
   );

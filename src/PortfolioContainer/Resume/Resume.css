@@ -24,7 +24,8 @@
   flex-grow: 1;
   width: 600px;
   overflow: hidden;
-  padding: 0 0 0 80px;
+  padding: 0 80px 0 80px;
+  box-shadow: 15px 0 9px -15px #1f2235;
 }
 
 .experience-description {

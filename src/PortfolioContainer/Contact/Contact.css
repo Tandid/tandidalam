@@ -12,7 +12,7 @@ a {
 
 .contactIconList {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   margin-bottom: 5%;
 }
