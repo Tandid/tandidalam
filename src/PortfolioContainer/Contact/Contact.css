@@ -12,14 +12,29 @@ a {
 
 .contactIconList {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
-  width: 60%;
   margin-bottom: 5%;
 }
 
+.contactIconList a {
+  text-decoration: none;
+}
+
+.contactIconList span {
+  color: black;
+  font-size: 16px;
+  padding-left: 15px;
+}
+
 .icons {
+  display: flex;
   font-size: -webkit-xxx-large;
+  margin: 10px;
+  align-items: center;
+  padding: 5px 20px 5px 20px;
+  border-radius: 30px;
+  box-shadow: 0 0px 10px -5px #1f2235;
 }
 
 .fa-linkedin-square {
@@ -31,12 +46,27 @@ a {
   transition: all 0.3s ease;
 }
 
-.fa-linkedin-square:hover,
+.linkedin:hover {
+  background-color: aliceblue;
+}
+
+.github:hover {
+  background-color: whitesmoke;
+}
+
+.gmail:hover {
+  background-color: seashell;
+}
+
+.angellist:hover {
+  background-color: whitesmoke;
+}
+/* .fa-linkedin-square:hover,
 .fa-envelope:hover,
 .fa-github:hover,
 .fa-angellist:hover {
   font-size: larger;
-}
+} */
 
 .fa-envelope {
   color: crimson;

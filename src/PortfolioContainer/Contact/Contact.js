@@ -22,25 +22,33 @@ export default function Projects(props) {
       </div>
       <div className="contactIconList">
         <a
-          className="icons"
+          className="icons linkedin"
           href="https://www.linkedin.com/in/tandidalam/"
           rel="noreferrer"
           target="_blank"
         >
           <i className="fa fa-linkedin-square"></i>
-        </a>{" "}
+          <span> linkedin.com/in/tandidalam/ </span>
+        </a>
         <a
-          className="icons"
+          className="icons github"
           href="https://github.com/Tandid"
           rel="noreferrer"
           target="_blank"
         >
           <i className="fa fa-github"></i>
+          <span> github.com/Tandid </span>
         </a>
-        <a className="icons" href="/" rel="noreferrer" target="_blank">
+        <a className="icons gmail" href="/" rel="noreferrer" target="_blank">
           <i className="fa fa-envelope"></i>
+          <span> tandid.alam@gmail.com </span>
         </a>
-        <a className="icons" href="/" rel="noreferrer" target="_blank">
+        <a
+          className="icons angellist"
+          href="/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <i className="fa fa-angellist"></i>
         </a>
       </div>
