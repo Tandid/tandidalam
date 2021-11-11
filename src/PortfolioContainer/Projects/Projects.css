@@ -12,7 +12,8 @@
   max-width: 1000px;
   width: 70%;
 }
-.project-card {
+
+.project-front-card {
   display: flex;
   width: 100%;
   box-shadow: 0 0px 20px -2px #1f2235;
@@ -22,12 +23,12 @@
   position: relative;
 }
 
-.project-card:hover .overlayBottom {
+.project-front-card:hover .overlayBottom {
   height: 30%;
   opacity: 1;
 }
 
-.project-card:hover {
+.project-front-card:hover {
   opacity: 0.85;
   transition: all ease-in-out 0.3s;
 }
@@ -111,39 +112,39 @@
   width: 50%;
 }
 
-.project-details {
-  width: 48%;
-  text-align: justify;
-  padding: 30px;
-}
-.project-description {
-  font-size: 12px;
-}
-.project-highlights {
-  margin: 80px 0;
-}
-.highlght-heading {
-  font-family: "Poppins Bold";
-  font-size: 14px;
-  margin: 0 0 5px 0;
-}
-.highlight {
+.project-back-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 5px 0;
-  font-size: 12px;
-}
-.highlight-blob {
-  height: 12px;
-  width: 12px;
-  margin: 0 10px 0 0;
-  background-color: #ff5823;
-  border-radius: 50%;
-}
-.project-options .highlighted-btn {
-  margin: 0 0 0 30px;
+  width: 100%;
+  box-shadow: 0 0px 20px -2px #1f2235;
+  border-radius: 20px;
+  height: 500px;
+  margin-bottom: 50px;
 }
 
+.project-name {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.project-description {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.tech-stack-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.tech-stack-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {
   .project-parent {
