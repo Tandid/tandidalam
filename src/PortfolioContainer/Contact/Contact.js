@@ -20,6 +20,30 @@ export default function Projects(props) {
       <div className="contact-parent">
         <ScreenHeading title={"Connect with Me"} />
       </div>
+      <div className="contactIconList">
+        <a
+          className="icons"
+          href="https://www.linkedin.com/in/tandidalam/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i className="fa fa-linkedin-square"></i>
+        </a>{" "}
+        <a
+          className="icons"
+          href="https://github.com/Tandid"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i className="fa fa-github"></i>
+        </a>
+        <a className="icons" href="/" rel="noreferrer" target="_blank">
+          <i className="fa fa-envelope"></i>
+        </a>
+        <a className="icons" href="/" rel="noreferrer" target="_blank">
+          <i className="fa fa-angellist"></i>
+        </a>
+      </div>
     </div>
   );
 }

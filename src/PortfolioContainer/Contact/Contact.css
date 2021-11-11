@@ -9,3 +9,41 @@ a {
   align-items: center;
   margin: 50px 0 0 0;
 }
+
+.contactIconList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+  margin-bottom: 5%;
+}
+
+.icons {
+  font-size: -webkit-xxx-large;
+}
+
+.fa-linkedin-square {
+  transition: all 0.3s ease;
+}
+
+.fa-github {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.fa-linkedin-square:hover,
+.fa-envelope:hover,
+.fa-github:hover,
+.fa-angellist:hover {
+  font-size: larger;
+}
+
+.fa-envelope {
+  color: crimson;
+  transition: all 0.3s ease;
+}
+
+.fa-angellist {
+  color: black;
+  transition: all 0.3s ease;
+}
