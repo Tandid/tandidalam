@@ -12,7 +12,7 @@ export default function AboutMe(props) {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
-  const SCREEN_CONSTSANTS = {
+  const SCREEN_CONSTANTS = {
     description:
       "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
     highlights: {
@@ -28,7 +28,7 @@ export default function AboutMe(props) {
     },
   };
   const renderHighlight = () => {
-    return SCREEN_CONSTSANTS.highlights.bullets.map((value, i) => (
+    return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
       <div className="highlight" key={i}>
         <div className="highlight-blob"></div>
         <span>{value}</span>
@@ -47,11 +47,11 @@ export default function AboutMe(props) {
           <div className="about-me-profile"></div>
           <div className="about-me-details">
             <span className="about-me-description">
-              {SCREEN_CONSTSANTS.description}
+              {SCREEN_CONSTANTS.description}
             </span>
             <div className="about-me-highlights">
               <div className="highlight-heading">
-                <span>{SCREEN_CONSTSANTS.highlights.heading}</span>
+                <span>{SCREEN_CONSTANTS.highlights.heading}</span>
               </div>
               {renderHighlight()}
             </div>
@@ -61,7 +61,7 @@ export default function AboutMe(props) {
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
               >
                 {" "}
-                Hire Me{" "}
+                Connect{" "}
               </button>
               <a href="/" download="/">
                 <button className="btn highlighted-btn">Get Resume</button>
