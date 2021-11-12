@@ -20,10 +20,11 @@ export default function Profile() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Enthusiastic Dev",
-                    1000,
                     "Fullstack Developer",
                     1000,
+                    "Passionate Coder",
+                    1000,
+                    "Curious Learner",
                   ]}
                 />
               </h1>

@@ -16,7 +16,7 @@
 .project-front-card {
   display: flex;
   width: 100%;
-  box-shadow: 0 0px 10px -2px #1f2235;
+  box-shadow: 0 0px 20px -2px #1f2235;
   border-radius: 20px;
   height: 500px;
   margin-bottom: 50px;
@@ -38,9 +38,14 @@
   width: 100%;
 }
 
+.project-img:hover {
+  opacity: 0.7;
+  transition: all 0.6s ease;
+}
+
 .overlay {
   position: absolute;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   opacity: 0;
   background-color: transparent;
 }
