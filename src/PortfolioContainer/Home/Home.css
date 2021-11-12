@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("../../assets/Home/bg2.gif");
+  background-image: url(https://www.fromanniek.com/wp-content/uploads/2018/06/0587f251249217.58e7079c0894c.gif);
   background-size: cover;
+  background-position-y: 3000px;
 }
