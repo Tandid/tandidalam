@@ -67,12 +67,12 @@ export default function Projects(props) {
               and user data.
             </div>
             <div className="project-tech-stack">
-              <div className="tech-stack-title">Implemented Technology</div>
-              <div className="tech-stack-list">
-                <div>Icon</div>
-                <div>Icon</div>
-                <div>Icon</div>
-                <div>Icon</div>
+              <div className="tech-stack-title">Implemented Technologies</div>
+              <div className="project-description">
+                FrontEnd: Javascript, HTML, Pug, CSS, Bootstrap
+              </div>
+              <div className="project-description">
+                BackEnd: Javascript, JQuery, NodeJS, MongoDB, Heroku, Socket.io
               </div>
             </div>
           </BackSide>
@@ -120,12 +120,12 @@ export default function Projects(props) {
               chat with eachother real time!
             </div>
             <div className="project-tech-stack">
-              <div className="tech-stack-title">Implemented Technology</div>
-              <div className="tech-stack-list">
-                <div>Icon</div>
-                <div>Icon</div>
-                <div>Icon</div>
-                <div>Icon</div>
+              <div className="tech-stack-title">Implemented Technologies</div>
+              <div className="project-description">
+                FrontEnd: Javascript, HTML, Pug, CSS, Bootstrap
+              </div>
+              <div className="project-description">
+                BackEnd: Javascript, JQuery, NodeJS, MongoDB, Heroku, Socket.io
               </div>
             </div>
           </BackSide>
@@ -140,7 +140,7 @@ export default function Projects(props) {
           <FrontSide className="project-front-card">
             <img
               className="project-img"
-              src={require("../../assets/Projects/poptoons.gif").default}
+              src={require("../../assets/Projects/spotify.gif").default}
               alt="no results"
             />
             <div className="overlay overlayBottom">
@@ -166,15 +166,19 @@ export default function Projects(props) {
             </div>
           </FrontSide>
           <BackSide className="project-back-card">
-            <div className="project-name"> Lorem Ipsum </div>
-            <div className="project-description"></div>
+            <div className="project-name"> Quacker </div>
+            <div className="project-description">
+              Quacker is a social media app that mimics Twitter's layouts and
+              features. Users can check out the latest news, follow others, and
+              chat with eachother real time!
+            </div>
             <div className="project-tech-stack">
-              <div className="tech-stack-title">Implemented Technology</div>
-              <div className="tech-stack-list">
-                <div>Icon</div>
-                <div>Icon</div>
-                <div>Icon</div>
-                <div>Icon</div>
+              <div className="tech-stack-title">Implemented Technologies</div>
+              <div className="project-description">
+                FrontEnd: Javascript, HTML, Pug, CSS, Bootstrap
+              </div>
+              <div className="project-description">
+                BackEnd: Javascript, JQuery, NodeJS, MongoDB, Heroku, Socket.io
               </div>
             </div>
           </BackSide>
