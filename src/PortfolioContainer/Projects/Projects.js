@@ -87,7 +87,7 @@ export default function Projects(props) {
           <FrontSide className="project-front-card">
             <img
               className="project-img"
-              src={require("../../assets/Projects/quacker.png").default}
+              src={require("../../assets/Projects/quacker.gif").default}
               alt="no results"
             />
             <div className="overlay overlayBottom">
