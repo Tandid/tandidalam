@@ -29,30 +29,13 @@
 }
 
 .project-front-card:hover {
-  opacity: 0.85;
-  transition: all ease-in-out 0.3s;
+  border: solid 1px crimson;
+  cursor: alias;
 }
 
-.project-1,
-.project-2,
-.project-3 {
+.project-img {
+  border-radius: 10px;
   width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 20px;
-}
-
-.project-1 {
-  background-image: url("../../assets/Projects/poptoons1.gif");
-}
-
-.project-2 {
-  background-image: url("../../assets/Projects/Quackerhome.png");
-}
-
-.project-3 {
-  background-image: url("../../assets/Projects/poptoons1.gif");
 }
 
 .overlay {
@@ -65,32 +48,37 @@
 .live-demo-button {
   color: var(--white);
   font-size: 20px;
-  font-weight: 400;
   background-color: crimson;
   padding: 15px;
   border-radius: 40px;
-  /* border: solid 1px black; */
+  box-shadow: 0 0px 5px -1px #1f2235;
+  font-family: "Poppins SemiBold";
 }
 
 .live-demo-button:hover {
-  color: var(--white);
+  color: black;
   background-color: crimson;
+  transition: all 0.6s ease;
 }
 
 .github-button {
-  color: var(--white);
+  color: black;
   font-size: 20px;
-  font-weight: 400;
-  background-color: black;
+  font-weight: 500;
+  background-color: lightgray;
   padding: 15px;
   border-radius: 40px;
-
-  /* border: solid 1px black; */
+  box-shadow: 0 0px 5px -1px #1f2235;
+  font-family: "Poppins SemiBold";
 }
 
+.fa-github {
+  padding-right: 5px;
+}
 .github-button:hover {
-  color: var(--white);
+  color: white;
   background-color: grey;
+  transition: all 0.6s ease;
 }
 
 .overlayBottom {
@@ -121,6 +109,11 @@
   border-radius: 20px;
   height: 500px;
   margin-bottom: 50px;
+}
+
+.project-back-card:hover {
+  border: solid 1px crimson;
+  cursor: alias;
 }
 
 .project-name {

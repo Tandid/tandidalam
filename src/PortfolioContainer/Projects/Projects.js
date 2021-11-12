@@ -28,7 +28,11 @@ export default function Projects(props) {
           flipDirection="horizontal"
         >
           <FrontSide className="project-front-card">
-            <div className="project-1"></div>
+            <img
+              className="project-img"
+              src={require("../../assets/Projects/poptoons.gif").default}
+              alt="no results"
+            />
             <div className="overlay overlayBottom">
               <div className="overlay-content">
                 <a
@@ -81,7 +85,11 @@ export default function Projects(props) {
           flipDirection="horizontal"
         >
           <FrontSide className="project-front-card">
-            <div className="project-2"></div>
+            <img
+              className="project-img"
+              src={require("../../assets/Projects/quacker.png").default}
+              alt="no results"
+            />
             <div className="overlay overlayBottom">
               <div className="overlay-content">
                 <a
@@ -130,7 +138,11 @@ export default function Projects(props) {
           flipDirection="horizontal"
         >
           <FrontSide className="project-front-card">
-            <div className="project-3"></div>
+            <img
+              className="project-img"
+              src={require("../../assets/Projects/poptoons.gif").default}
+              alt="no results"
+            />
             <div className="overlay overlayBottom">
               <div className="overlay-content">
                 <a
