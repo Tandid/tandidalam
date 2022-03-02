@@ -89,7 +89,7 @@ export default function Projects(props) {
           <FrontSide className="project-front-card">
             <img
               className="project-img"
-              src={require("../../assets/Projects/quacker.gif").default}
+              src={require("../../assets/Projects/buzzer.gif").default}
               alt="no results"
             />
             <div className="overlay overlayBottom">
@@ -147,7 +147,7 @@ export default function Projects(props) {
           <FrontSide className="project-front-card">
             <img
               className="project-img"
-              src={require("../../assets/Projects/spotify.gif").default}
+              src={require("../../assets/Projects/hoodedhero.gif").default}
               alt="no results"
             />
             <div className="overlay overlayBottom">
