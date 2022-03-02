@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   margin: 50px 0 0 0;
+  color: white;
 }
 .about-me-parent {
   max-width: 1000px;
@@ -14,6 +15,7 @@
   width: 100%;
   box-shadow: 0 0px 20px -2px #1f2235;
   border-radius: 20px;
+  background-color: #1f2235;
 }
 .about-me-profile {
   width: 50%;
