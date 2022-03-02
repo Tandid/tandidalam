@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tandidalam/static/css/main.0daf5f89.chunk.css",
+    "main.css": "/tandidalam/static/css/main.0736ab77.chunk.css",
     "main.js": "/tandidalam/static/js/main.62e53416.chunk.js",
     "main.js.map": "/tandidalam/static/js/main.62e53416.chunk.js.map",
     "runtime-main.js": "/tandidalam/static/js/runtime-main.6225f0d2.js",
@@ -10,9 +10,10 @@
     "static/js/3.bdff7905.chunk.js": "/tandidalam/static/js/3.bdff7905.chunk.js",
     "static/js/3.bdff7905.chunk.js.map": "/tandidalam/static/js/3.bdff7905.chunk.js.map",
     "index.html": "/tandidalam/index.html",
-    "static/css/main.0daf5f89.chunk.css.map": "/tandidalam/static/css/main.0daf5f89.chunk.css.map",
+    "static/css/main.0736ab77.chunk.css.map": "/tandidalam/static/css/main.0736ab77.chunk.css.map",
     "static/js/2.b49e4862.chunk.js.LICENSE.txt": "/tandidalam/static/js/2.b49e4862.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tandidalam/static/media/Poppins-Thin.a61eaf4c.ttf",
+    "static/media/Home.css": "/tandidalam/static/media/bg.6673fa97.png",
     "static/media/css-5.svg": "/tandidalam/static/media/css-5.d4c86ccd.svg",
     "static/media/education.svg": "/tandidalam/static/media/education.10cfa28a.svg",
     "static/media/git.svg": "/tandidalam/static/media/git.2a98f350.svg",
@@ -39,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.6225f0d2.js",
     "static/js/2.b49e4862.chunk.js",
-    "static/css/main.0daf5f89.chunk.css",
+    "static/css/main.0736ab77.chunk.css",
     "static/js/main.62e53416.chunk.js"
   ]
 }
