@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tandidalam/static/css/main.0736ab77.chunk.css",
-    "main.js": "/tandidalam/static/js/main.62e53416.chunk.js",
-    "main.js.map": "/tandidalam/static/js/main.62e53416.chunk.js.map",
+    "main.js": "/tandidalam/static/js/main.3938e8b3.chunk.js",
+    "main.js.map": "/tandidalam/static/js/main.3938e8b3.chunk.js.map",
     "runtime-main.js": "/tandidalam/static/js/runtime-main.6225f0d2.js",
     "runtime-main.js.map": "/tandidalam/static/js/runtime-main.6225f0d2.js.map",
     "static/js/2.b49e4862.chunk.js": "/tandidalam/static/js/2.b49e4862.chunk.js",
@@ -14,14 +14,16 @@
     "static/js/2.b49e4862.chunk.js.LICENSE.txt": "/tandidalam/static/js/2.b49e4862.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tandidalam/static/media/Poppins-Thin.a61eaf4c.ttf",
     "static/media/Home.css": "/tandidalam/static/media/bg.6673fa97.png",
+    "static/media/buzzer.gif": "/tandidalam/static/media/buzzer.c0a8ab40.gif",
     "static/media/css-5.svg": "/tandidalam/static/media/css-5.d4c86ccd.svg",
     "static/media/education.svg": "/tandidalam/static/media/education.10cfa28a.svg",
     "static/media/git.svg": "/tandidalam/static/media/git.2a98f350.svg",
     "static/media/github-1.svg": "/tandidalam/static/media/github-1.740db6be.svg",
     "static/media/heroku.svg": "/tandidalam/static/media/heroku.73be03b3.svg",
+    "static/media/hoodedhero.gif": "/tandidalam/static/media/hoodedhero.144447f3.gif",
     "static/media/html.svg": "/tandidalam/static/media/html.821ba738.svg",
     "static/media/interests.svg": "/tandidalam/static/media/interests.809890a3.svg",
-    "static/media/javascript-4.svg": "/tandidalam/static/media/javascript-4.13ceb963.svg",
+    "static/media/javascript-4.svg": "/tandidalam/static/media/javascript-4.10032778.svg",
     "static/media/jquery-1.svg": "/tandidalam/static/media/jquery-1.a7204256.svg",
     "static/media/mongodb.svg": "/tandidalam/static/media/mongodb.d89a6eeb.svg",
     "static/media/nodejs-1.svg": "/tandidalam/static/media/nodejs-1.52cbf9a8.svg",
@@ -30,10 +32,8 @@
     "static/media/Profile.css": "/tandidalam/static/media/profilephoto.4d5f9fa7.jpg",
     "static/media/AboutMe.css": "/tandidalam/static/media/profilepic.a8ce355a.jpeg",
     "static/media/programming-skills.svg": "/tandidalam/static/media/programming-skills.d19983a9.svg",
-    "static/media/quacker.gif": "/tandidalam/static/media/quacker.494d42e3.gif",
     "static/media/react-2.svg": "/tandidalam/static/media/react-2.e68b35f4.svg",
     "static/media/redux.svg": "/tandidalam/static/media/redux.0e4fb1c8.svg",
-    "static/media/spotify.gif": "/tandidalam/static/media/spotify.da429cec.gif",
     "static/media/webpack-icon.svg": "/tandidalam/static/media/webpack-icon.f44900ae.svg",
     "static/media/work-history.svg": "/tandidalam/static/media/work-history.a566475d.svg"
   },
@@ -41,6 +41,6 @@
     "static/js/runtime-main.6225f0d2.js",
     "static/js/2.b49e4862.chunk.js",
     "static/css/main.0736ab77.chunk.css",
-    "static/js/main.62e53416.chunk.js"
+    "static/js/main.3938e8b3.chunk.js"
   ]
 }
