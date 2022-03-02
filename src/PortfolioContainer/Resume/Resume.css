@@ -135,7 +135,7 @@
   width: 15px;
   top: 5px;
   border-radius: 50%;
-  background-color: crimson;
+  background-color: steelblue;
 }
 
 .resume-sub-heading {
@@ -151,7 +151,7 @@
 }
 
 .heading-date {
-  background-color: crimson;
+  background-color: steelblue;
   padding: 4px 12px;
   font-size: 14px;
   border-radius: 14px;
@@ -183,7 +183,7 @@
 .skill-parent span {
   font-family: "Poppins Bold";
   /* font-size: 16px;
-  color: crimson; */
+  color: steelblue; */
 }
 
 /* IPAD PRO RESPONSIVENESS */

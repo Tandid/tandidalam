@@ -1,3 +1,7 @@
+* {
+  /* background-color: #0d1116; */
+}
+
 @font-face {
   font-family: "Poppins Medium";
   font-style: normal;
@@ -108,7 +112,7 @@ body ::-webkit-scrollbar-thumb {
 
 .primary-btn:hover {
   color: aliceblue;
-  border: 2px solid crimson;
+  border: 2px solid steelblue;
   background-color: #1f2235;
 }
 
@@ -116,7 +120,7 @@ body ::-webkit-scrollbar-thumb {
   color: var(--white);
 
   font-size: 12px;
-  background-color: crimson;
+  background-color: steelblue;
 }
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
@@ -124,7 +128,7 @@ body ::-webkit-scrollbar-thumb {
   }
 }
 
-.crimson-border {
+.steelblue-border {
   border: 1px solid var(--error-message) !important;
 }
 
