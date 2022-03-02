@@ -29,7 +29,26 @@
     <title>Portfolio App</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <script src="path/to/particles.min.js"></script>
+    <canvas class="background"></canvas>
+    <script>
+      var particles = Particles.init({
+        selector: ".background",
+        color: ["#4682B4", "#4682B4"],
+        connectParticles: true,
+        responsive: [
+          {
+            breakpoint: 1000,
+            options: {
+              color: "#4682B4",
+              maxParticles: 500,
+              connectParticles: false,
+            },
+          },
+        ],
+      });
+    </script>
   </body>
 </html>

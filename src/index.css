@@ -1,6 +1,6 @@
-* {
-  /* background-color: #0d1116; */
-}
+/* * {
+  background-color: #0d1116;
+} */
 
 @font-face {
   font-family: "Poppins Medium";
@@ -136,4 +136,17 @@ body ::-webkit-scrollbar-thumb {
   opacity: 0;
   transform: translateY(80px);
   transition: all 0.8s ease;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  z-index: -3;
+  background-color: #313c51;
 }
