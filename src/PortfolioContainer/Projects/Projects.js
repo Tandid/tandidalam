@@ -55,7 +55,7 @@ export default function Projects(props) {
             </div>
           </FrontSide>
           <BackSide className="project-back-card">
-            <div className="project-name"> Pop Toons Shop </div>
+            <div className="project-name"> Pop Toons Shop (E-Commerce App)</div>
             <div className="project-description">
               Poptoons Shop is an E-commerce site that sells pop vinyl figurines
               also known as Funko Pops. This E-commerce site offers a wide
@@ -66,12 +66,15 @@ export default function Projects(props) {
               and user data.
             </div>
             <div className="project-tech-stack">
-              <div className="tech-stack-title">Implemented Technologies</div>
-              <div className="project-description">
-                FrontEnd: Javascript, HTML, Pug, CSS, Bootstrap
+              <div className="tech-stack-title">
+                Implemented Technologies/Software
               </div>
               <div className="project-description">
-                BackEnd: Javascript, JQuery, NodeJS, MongoDB, Heroku, Socket.io
+                FrontEnd: React, Redux, Javascript, HTML5, Material UI
+              </div>
+              <div className="project-description">
+                BackEnd: Javascript, PostgreSQL, NodeJS, Express, Heroku, Stripe
+                API
               </div>
             </div>
           </BackSide>
@@ -93,7 +96,7 @@ export default function Projects(props) {
               <div className="overlay-content">
                 <a
                   className="live-demo-button"
-                  href="https://quacker-twitterclone.herokuapp.com/ "
+                  href="https://buzzer-twitterclone.herokuapp.com/ "
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -101,7 +104,7 @@ export default function Projects(props) {
                 </a>
                 <a
                   className="github-button"
-                  href="https://github.com/Tandid/Quacker-TwitterClone"
+                  href="https://github.com/Tandid/Buzzer"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -112,19 +115,24 @@ export default function Projects(props) {
             </div>
           </FrontSide>
           <BackSide className="project-back-card">
-            <div className="project-name"> Quacker </div>
+            <div className="project-name"> Buzzer (Twitter Clone) </div>
             <div className="project-description">
-              Quacker is a social media app that mimics Twitter's layouts and
-              features. Users can check out the latest news, follow others, and
-              chat with eachother real time!
+              Buzzer is a social media app that mimics Twitter's overall layout
+              and features. Users can create their own posts, follow other
+              users, and interact with eachother's post through likes, comments,
+              and reposts. On top of that, users receive live notifications and
+              can chat with eachother or groups in real-time!
             </div>
             <div className="project-tech-stack">
-              <div className="tech-stack-title">Implemented Technologies</div>
-              <div className="project-description">
-                FrontEnd: Javascript, HTML, Pug, CSS, Bootstrap
+              <div className="tech-stack-title">
+                Implemented Technologies/Software
               </div>
               <div className="project-description">
-                BackEnd: Javascript, JQuery, NodeJS, MongoDB, Heroku, Socket.io
+                FrontEnd: Javascript, JQuery, HTML5, Pug, CSS, Bootstrap
+              </div>
+              <div className="project-description">
+                BackEnd: Javascript, JQuery, NodeJS, Express, MongoDB, Heroku,
+                Socket.io, News API
               </div>
             </div>
           </BackSide>
@@ -146,7 +154,7 @@ export default function Projects(props) {
               <div className="overlay-content">
                 <a
                   className="live-demo-button"
-                  href="/"
+                  href="https://the-hooded-hero.herokuapp.com/"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -154,7 +162,7 @@ export default function Projects(props) {
                 </a>
                 <a
                   className="github-button"
-                  href="/"
+                  href="https://github.com/Tandid/The-Hooded-Hero"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -165,19 +173,26 @@ export default function Projects(props) {
             </div>
           </FrontSide>
           <BackSide className="project-back-card">
-            <div className="project-name"> Quacker </div>
+            <div className="project-name"> The Hooded Hero (2D Platformer)</div>
             <div className="project-description">
-              Quacker is a social media app that mimics Twitter's layouts and
-              features. Users can check out the latest news, follow others, and
-              chat with eachother real time!
+              The Hooded Hero is a 2D Platformer game made using the Phaser.js
+              library.The game offers users to go through a story mode with
+              three levels, where players fight their way through enemies,
+              collect coins, and come across a final boss at the end. On top of
+              that, there's a multiplayer mode where players get to face off
+              with eachother in order to see who can complete the level the
+              fastest!
             </div>
             <div className="project-tech-stack">
-              <div className="tech-stack-title">Implemented Technologies</div>
-              <div className="project-description">
-                FrontEnd: Javascript, HTML, Pug, CSS, Bootstrap
+              <div className="tech-stack-title">
+                Implemented Technologies/Software
               </div>
               <div className="project-description">
-                BackEnd: Javascript, JQuery, NodeJS, MongoDB, Heroku, Socket.io
+                FrontEnd: Javascript, Tiled, HTML5, CSS
+              </div>
+              <div className="project-description">
+                BackEnd: Javascript, Phaser.js, NodeJS, Express, Heroku,
+                Socket.io, Webpack
               </div>
             </div>
           </BackSide>
