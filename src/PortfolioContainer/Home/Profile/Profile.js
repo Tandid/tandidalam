@@ -22,9 +22,10 @@ export default function Profile() {
                   steps={[
                     "Fullstack Developer",
                     1000,
-                    "Passionate Coder",
+                    "Problem Solver",
                     1000,
                     "Curious Learner",
+                    1000,
                   ]}
                 />
               </h1>
