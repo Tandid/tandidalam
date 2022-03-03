@@ -17,7 +17,7 @@ export default function Projects(props) {
       id={props.id || ""}
     >
       <div className="contact-parent">
-        <ScreenHeading title={"Connect with Me"} />
+        <ScreenHeading title={" "} />
       </div>
       <div className="contactIconList">
         <a
