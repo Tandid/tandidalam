@@ -13,26 +13,12 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Full stack web and mobile developer with background knowledge of MERN stacks with redux, along with a knack of building applications with utmost efficiency. Strong professional with a BSC willing to be an asset for an organization.",
+      "Full stack developer with extensive background knowledge and skills in a wide variety of industries as well as the building process for web applications using the MERN stack. As long as there's coffee right alongside me, I'm ready to tackle any coding challenge that life throws at me!",
     highlights: {
-      bullets: [
-        "Full Stack web and mobile development",
-        "Interactive Front End as per the design",
-        "React and React Native",
-        "Redux for State Mnanagement",
-        "Building REST API",
-        "Managing database",
-      ],
-      heading: "Here are a Few Highlights:",
+      heading: "My Career",
     },
-  };
-  const renderHighlight = () => {
-    return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
-      <div className="highlight" key={i}>
-        <div className="highlight-blob"></div>
-        <span>{value}</span>
-      </div>
-    ));
+    career:
+      "I’ve always had a passion for learning and my curiosity always took me down a road where I was able to develop new skills and go out of my comfort zone. In my time at Baruch College, I’ve experienced being a barista, working in real estate and public accounting, and I took on diverse roles in school clubs like helping out in marketing, treasury or leading social events, but at a certain point I reached a standstill. I felt my growth being limited and that’s when a friend told me to try out a coding bootcamp right before I was about to graduate. That led me to Fullstack Academy where I finally realized my true calling, and now here I am and I couldn’t be any more sure of my career! ",
   };
 
   return (
@@ -52,7 +38,9 @@ export default function AboutMe(props) {
               <div className="highlight-heading">
                 <span>{SCREEN_CONSTANTS.highlights.heading}</span>
               </div>
-              {renderHighlight()}
+              <span className="about-me-description">
+                {SCREEN_CONSTANTS.career}
+              </span>
             </div>
             <div className="about-me-options">
               <a
