@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tandidalam/static/css/main.5c0b74d8.chunk.css",
-    "main.js": "/tandidalam/static/js/main.c07f329a.chunk.js",
-    "main.js.map": "/tandidalam/static/js/main.c07f329a.chunk.js.map",
+    "main.js": "/tandidalam/static/js/main.404cde37.chunk.js",
+    "main.js.map": "/tandidalam/static/js/main.404cde37.chunk.js.map",
     "runtime-main.js": "/tandidalam/static/js/runtime-main.6225f0d2.js",
     "runtime-main.js.map": "/tandidalam/static/js/runtime-main.6225f0d2.js.map",
     "static/js/2.b49e4862.chunk.js": "/tandidalam/static/js/2.b49e4862.chunk.js",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.6225f0d2.js",
     "static/js/2.b49e4862.chunk.js",
     "static/css/main.5c0b74d8.chunk.css",
-    "static/js/main.c07f329a.chunk.js"
+    "static/js/main.404cde37.chunk.js"
   ]
 }
