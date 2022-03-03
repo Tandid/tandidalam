@@ -40,7 +40,7 @@ export default function Profile() {
             >
               <button className="btn primary-btn"> Connect </button>
             </a>
-            <a href="resume.pdf" download="resume.pdf">
+            <a href="resume.pdf" download="Official Resume [Tandid Alam].pdf">
               <button className="btn highlighted-btn"> Get Resume </button>
             </a>
           </div>
