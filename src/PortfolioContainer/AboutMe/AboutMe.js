@@ -55,14 +55,21 @@ export default function AboutMe(props) {
               {renderHighlight()}
             </div>
             <div className="about-me-options">
-              <button
-                className="btn primary-btn"
-                onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+              <a
+                href="https://www.linkedin.com/in/tandidalam/"
+                rel="noreferrer"
+                target="_blank"
               >
-                {" "}
-                Connect{" "}
-              </button>
-              <a href="/" download="/">
+                <button
+                  className="btn primary-btn"
+                  onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+                >
+                  {" "}
+                  Connect{" "}
+                </button>
+              </a>
+
+              <a href="./client/resume.pdf" download="resume.pdf">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>

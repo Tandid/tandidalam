@@ -32,7 +32,13 @@ export default function Profile() {
             <span className="profile-role-tagline"></span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn"> Connect </button>
+            <a
+              href="https://www.linkedin.com/in/tandidalam/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="btn primary-btn"> Connect </button>
+            </a>
             <a href="resume.pdf" download="resume.pdf">
               <button className="btn highlighted-btn"> Get Resume </button>
             </a>
