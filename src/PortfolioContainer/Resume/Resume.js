@@ -50,17 +50,17 @@ const Resume = (props) => {
 
   const programmingSkillsDetails = [
     { skill: "JavaScript", imageURL: "javascript-4.svg" },
-    { skill: "React JS", imageURL: "react-2.svg" },
-    { skill: "React Redux", imageURL: "redux.svg" },
-    // { skill: "Express JS", imageURL: "" },
-    { skill: "Node JS", imageURL: "nodejs-1.svg" },
-    { skill: "Mongo Db", imageURL: "mongodb.svg" },
     { skill: "JQuery", imageURL: "jquery-1.svg" },
-    { skill: "HTML", imageURL: "html.svg" },
-    { skill: "CSS", imageURL: "css-5.svg" },
+    { skill: "React JS", imageURL: "react-2.svg" },
+    { skill: "Node JS", imageURL: "nodejs-1.svg" },
+    { skill: "React Redux", imageURL: "redux.svg" },
+    { skill: "HTML5", imageURL: "html.svg" },
     { skill: "PostgreSQL", imageURL: "postgresql.svg" },
-    { skill: "Webpack", imageURL: "webpack-icon.svg" },
+    { skill: "CSS3", imageURL: "css-5.svg" },
+    { skill: "Mongo DB", imageURL: "mongodb.svg" },
     { skill: "Git", imageURL: "git.svg" },
+    { skill: "Webpack", imageURL: "webpack-icon.svg" },
+    // { skill: "Express JS", imageURL: "" },
   ];
 
   const resumeDetails = [
@@ -92,6 +92,7 @@ const Resume = (props) => {
 
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
+      <div className="resume-section"> Professional Experience </div>
       <div className="experience-container">
         <ResumeHeading
           heading={"Deloitte & Touche, LLC"}
@@ -139,7 +140,7 @@ const Resume = (props) => {
             src={require(`../../assets/Skills/${skill.imageURL}`).default}
             alt="B"
           />
-          <span>{skill.skill}</span>
+          <span className="skill-description">{skill.skill}</span>
         </div>
       ))}
     </div>,
@@ -148,9 +149,15 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading heading="Competitive Gaming" description="" />
       <ResumeHeading heading="Basketball" description="" />
-      <ResumeHeading heading="Music" description="" />
-      <ResumeHeading heading="Weight Training" description="" />
-      <ResumeHeading heading="Cognitive Neuroscience" description="" />
+      <ResumeHeading heading="Bodybuilding" description="" />
+      <ResumeHeading
+        heading="Cognitive Neuroscience/Psychology"
+        description=""
+      />
+      <ResumeHeading heading="Day Trading" description="" />
+      <ResumeHeading heading="Piano" description="" />
+      <ResumeHeading heading="Biking" description="" />
+      <ResumeHeading heading="Snowboarding" description="" />
     </div>,
   ];
 

@@ -12,13 +12,13 @@
   height: 460px;
   width: 1200px;
   padding: 50px;
-  background-color: white;
+  background-color: #1f2235;
   border-radius: 20px;
   /* margin: 80px 0; */
 }
 
 .resume-bullets {
-  box-shadow: 15px 0 9px -15px #1f2235;
+  box-shadow: 10px 0 10px -15px steelblue;
   height: 100%;
   width: 320px;
 }
@@ -28,12 +28,13 @@
   width: 600px;
   overflow: hidden;
   padding: 0 80px 0 80px;
-  box-shadow: 15px 0 9px -15px #1f2235;
+  box-shadow: 10px 0 10px -15px steelblue;
 }
 
 .experience-description {
   margin: 10px 0 0 0;
   text-align: justify;
+  color: white;
 }
 
 .resume-description-text {
@@ -50,6 +51,7 @@
   height: 100%;
   width: 100%;
   position: relative;
+  color: white;
 }
 
 .bullets {
@@ -62,7 +64,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color: #1f2235;
+  background-color: steelblue;
   height: 40px;
   margin: 15px 0;
   padding: 0 8px;
@@ -86,7 +88,7 @@
   width: 34px;
   height: 100%;
   z-index: 1;
-  background-color: #1f2235;
+  background-color: steelblue;
   position: absolute;
   border-radius: 20px;
 }
@@ -112,7 +114,7 @@
 .resume-section {
   font-size: larger;
   font-weight: bolder;
-  color: var(--black);
+  color: white;
 }
 
 .resume-main-heading {
@@ -164,15 +166,23 @@
 .skill-parent {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
-  width: 40%;
+  width: 45%;
   align-items: center;
+  background-color: steelblue;
+  padding: 1px;
+  border-radius: 20px;
 }
 
 .skill-logo {
   width: 60px;
   height: 50px;
+  /* background-color: white; */
+}
+.skill-description {
+  padding-left: 20px;
+  color: white;
 }
 
 .programming-skills-container {
