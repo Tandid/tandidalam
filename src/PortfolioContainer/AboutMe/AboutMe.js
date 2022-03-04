@@ -13,7 +13,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Full stack developer with extensive background knowledge and skills in a wide variety of industries as well as the building process for web applications using the MERN stack. As long as there's coffee right alongside me, I'm ready to tackle any coding challenge that life throws at me!",
+      "Full stack developer with extensive background knowledge and skills in a wide variety of industries as well as the building process for web applications using the MERN stack.",
     highlights: {
       heading: "My Career",
     },
@@ -57,7 +57,10 @@ export default function AboutMe(props) {
                 </button>
               </a>
 
-              <a href=".resume.pdf" download="resume.pdf">
+              <a
+                href=".resume.pdf"
+                download="Official Resume [Tandid Alam].pdf"
+              >
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
             </div>
