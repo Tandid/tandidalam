@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tandidalam/static/css/main.063abbe6.chunk.css",
+    "main.css": "/tandidalam/static/css/main.9adcac57.chunk.css",
     "main.js": "/tandidalam/static/js/main.0f642bde.chunk.js",
     "main.js.map": "/tandidalam/static/js/main.0f642bde.chunk.js.map",
     "runtime-main.js": "/tandidalam/static/js/runtime-main.28d458dc.js",
@@ -10,7 +10,7 @@
     "static/js/3.6c41c374.chunk.js": "/tandidalam/static/js/3.6c41c374.chunk.js",
     "static/js/3.6c41c374.chunk.js.map": "/tandidalam/static/js/3.6c41c374.chunk.js.map",
     "index.html": "/tandidalam/index.html",
-    "static/css/main.063abbe6.chunk.css.map": "/tandidalam/static/css/main.063abbe6.chunk.css.map",
+    "static/css/main.9adcac57.chunk.css.map": "/tandidalam/static/css/main.9adcac57.chunk.css.map",
     "static/js/2.755d2a7a.chunk.js.LICENSE.txt": "/tandidalam/static/js/2.755d2a7a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tandidalam/static/media/Poppins-Thin.a61eaf4c.ttf",
     "static/media/Contact.css": "/tandidalam/static/media/bg.6673fa97.png",
@@ -43,7 +43,7 @@
   "entrypoints": [
     "static/js/runtime-main.28d458dc.js",
     "static/js/2.755d2a7a.chunk.js",
-    "static/css/main.063abbe6.chunk.css",
+    "static/css/main.9adcac57.chunk.css",
     "static/js/main.0f642bde.chunk.js"
   ]
 }
