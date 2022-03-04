@@ -21,12 +21,18 @@ export default function Projects(props) {
         <ScreenHeading title={"Projects"} />
 
         {/* Project 1 */}
+
         <Flippy
           flipOnHover={false} // default false
           flipOnClick={true} // default false
           flipDirection="horizontal"
         >
           <FrontSide className="project-front-card">
+            <img
+              className="project-img-logo-1"
+              src={require("../../assets/Projects/pop-logo.png").default}
+              alt="no results"
+            />
             <img
               className="project-img"
               src={require("../../assets/Projects/poptoons.gif").default}
@@ -81,12 +87,18 @@ export default function Projects(props) {
         </Flippy>
 
         {/* Project 2 */}
+
         <Flippy
           flipOnHover={false} // default false
           flipOnClick={true} // default false
           flipDirection="horizontal"
         >
           <FrontSide className="project-front-card">
+            <img
+              className="project-img-logo-2"
+              src={require("../../assets/Projects/buzzer-logo.svg").default}
+              alt="no results"
+            />
             <img
               className="project-img"
               src={require("../../assets/Projects/buzzer.gif").default}
@@ -139,12 +151,20 @@ export default function Projects(props) {
         </Flippy>
 
         {/* Project 3 */}
+
         <Flippy
           flipOnHover={false} // default false
           flipOnClick={true} // default false
           flipDirection="horizontal"
         >
           <FrontSide className="project-front-card">
+            <img
+              className="project-img-logo-3"
+              src={
+                require("../../assets/Projects/hooded-hero-logo.png").default
+              }
+              alt="no results"
+            />
             <img
               className="project-img"
               src={require("../../assets/Projects/hoodedhero.gif").default}
